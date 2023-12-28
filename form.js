@@ -33,13 +33,12 @@ form.addEventListener('submit', (e) => {
             e.preventDefault()
             clc[1].classList.add('required-password')
         } */
-        /* ---------- end ---------- */
-        
+
         let err = false
         if (!(err)) {
             e.preventDefault()
             clc.forEach((e) => {
-                e.classList.add('required2')
+                e.classList.add('required')
             })
         }
     }
